@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+
+<head>
+<title>THE HUXLEY DIRVE</title>
+<link href="/normalize.css" rel="stylesheet">
+<script src="/assets/jquery.js"></script>
+<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Rajdhani:wght@300" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Rock+Salt" rel="stylesheet">
+
+
+<style>
+body {
+  font-family: 'Lato';
+  text-align: center;
+  color:white;
+  background-image: url("https://i.imgur.com/qF8IhSP.jpg");
+  max-height: 600px;
+  max-width: 100%;
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: left top;
+  background-color: white;
+  background-repeat: no-repeat;
+}
+
+h1 {
+  font-family: 'Bebas Neue';
+  text-align: center;
+  font-size: 105px;
+  color: #aaaaaa;
+  margin: 60px 0 0 0;
+}
+h2 {
+  text-align: center;
+  color: #bbbbbb;
+  margin: 0px 0 70px 0;
+  font-family: 'Rajdhani';
+  font-size: 45px;
+  color: #1B1E21;
+  
+}
+div {
+  height: 420px;
+  background-size: cover;
+  position: relative;
+  margin: 180px 0 0 0;
+}
+
+p {
+  color: rgba(255,255,255,1);
+  background: black;
+  background: linear-gradient(bottom, rgba(0,0,0,1), rgba(0,0,0,.4));
+  background: -webkit-linear-gradient(bottom, rgba(0,0,0,1), rgba(0,0,0,.4));
+  background: -moz-linear-gradient(bottom, rgba(0,0,0,1), rgba(0,0,0,.4));
+  padding: 20px;
+  line-height: 30px;
+  text-align: justify;
+  position: absolute;
+  bottom: 0;
+  margin: 0;
+  height: 40px;
+  transition: height .5s;
+  -webkit-transition: height .5s;
+  -moz-transition: height .5s;
+}
+
+small {
+  opacity: 0;
+  font-family: 'Rajdhani';
+}
+
+.show-description p {
+  height: 380px;
+}
+
+.show-description small {
+  opacity: 1;
+}
+
+.pic1{
+  background-image: url("https://i.imgur.com/AUK1Gts.png");
+  max-width: 500px;
+  max-height: auto;
+  font-family: 'Bebas Neue';
+  font-size: 25px;
+  margin-left: auto;
+  margin-right: auto;
+
+}
+.pic2{
+  background-image: url("https://i.imgur.com/Zd5GdEo.png");
+  max-width: 500px;
+  max-height: auto;
+  font-family: 'Bebas Neue';
+  font-size: 25px;
+  margin-left: auto;
+  margin-right: auto;
+  
+}
+.pic3{
+  background-image: url("https://i.imgur.com/S63wgjS.png");
+  max-width: 500px;
+  max-height: auto;
+  font-family: 'Bebas Neue';
+  font-size: 25px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.pic4{
+  background-image: url("https://i.imgur.com/Lnv4AOt.png");
+  max-width: 500px;
+  max-height: auto;
+  font-family: 'Bebas Neue';
+  font-size: 25px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.status {
+  float: right;
+  font-family: 'Rock Salt';
+  font-size: 20px;
+}
+
+@media (max-width: 500px) {
+  h1 {
+    font-size: 50px;
+    margin-top: 20px;
+    line-height: 40px;
+  }
+  h2 {
+    font-size: 20px;
+    margin: 20px 0 30px 0;
+  }
+  div {
+    margin: 20px 12px 0 12px;
+  }
+  p {
+    font-size: 20px;
+    line-height: 24px;
+  }
+  small {
+    font-size: 16px;
+  }
+}
+
+</style>
+
+</head>
+
+<body>
+
+
+<h1>The Huxley Drive</h1>
+<h2>ultimate riding machines</h2>
+<div class="pic1">
+  <p>The Twenty20 SR500<span class="status">SOLD</span><br />
+  <small>Originally from the Blue Mountains, this little thumper rolled into the Camperdown workshop needing a full top + bottom rebuild along with a some creative touches. The frame was completely stripped, and received the plush treatment, powder-coated Frame and swing-arm, in black of course. Rolling around the above are a set of 21' front whees with Dunlop D606 rubbers, along with a full Brembo brake system. Go Go ain't nothing with stopping power!  </small></p>
+</div>
+
+<div class="pic2">
+  <p>The Flaneur<span class="status">For Sale</span><br />
+  <small>The base of this build was a 2014 Yamaha SR400. With its EFI and tough-as-nails reputation, it is the perfect riding partner to dance streets and ride the highways with. So Camperdown chief, Jeremy Tagand has been at it again with this classy citizen, now strolling the streets of Sydney. The engine has had a power commander added to liven it up as well as a reverse cone muffler to help it breathe. </small></p>
+</div>
+  
+<div class="pic3">
+  <p>The Sal XJR1300<span class="status">For Sale</span><br />
+  <small>We've always been a fan of the Yamaha XJR1300, since its introduction in the late 90s the unassuming 1.3 litre brute has been a staple of the sports touring scene – largely due to its ergonomic cockpit and effortless power delivery. After its first big update in 2015 (which sadly never made it to Oz) the custom bike scene woke up to the potential of the big bruiser thanks in part to Yamaha's yard built program.</small></p>
+</div>
+
+<div class="pic4">
+  <p>The Webber<span class="status">SOLD</span><br />
+  <small>The Kawasaki W range is no stranger to the Deus Workshop, with a heathy appreciation for parallel twins running deep through our veins. 
+Jez set to work stripping the donor bike back to its bares leaving nothing more than the tank and an untouched saddle. The front and rear guards were substituted for alloy units and a bates style headlight, flush mount LED tail light and classic posh indicators were installed on all four corners to maximize visibility and style on the road.
+</small></p>
+</div>
+
+
+<script>
+  $('div').on('click', function() {
+      $(this).toggleClass('show-description');
+  });
+</script>
+
+  
+</body>
